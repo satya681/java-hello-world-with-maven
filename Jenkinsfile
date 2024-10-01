@@ -1,7 +1,8 @@
-pipeline{
-    agent any
+pipeline{  
+     agent any
 
-    tools {
+
+    tools { 
          maven 'maven'
          jdk 'java'
     }
