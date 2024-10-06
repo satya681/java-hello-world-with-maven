@@ -22,7 +22,16 @@
            </dependency>
        </dependencies>
        <!-- end::joda[] -->
-       
+       <distributionManagement>
+        <repository>
+            <id>nexus-id</id>
+            <url>http://35.171.157.15:8080/maven-releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-id</id>
+            <url>http://35.171.157.15:8080/maven-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
     <build>
         <plugins>
             <plugin>
